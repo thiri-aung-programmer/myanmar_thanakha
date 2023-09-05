@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>မြန်မာ့သနပ်ခါး</title>
+    <!-- <link rel="stylesheet" href="../bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body class="container" onload="loadShow();">
+
+    <nav class=" d-inline-flex align-items-center justify-content-center p-2">
+        <div class="logo-info d-inline ms-5">
+            <img src="img/logo2.png" alt="">
+            <div class="info">
+                <p class="fw-bold">မြန်မာ့သနပ်ခါး</p>
+            </div>
+        </div>
+        <div class="searchgp mx-5">
+            <input type="text" placeholder="Search" id="search" class="px-2">
+            <i class="fa-solid fa-magnifying-glass px-2"></i>
+        </div>
+        <ol class="list-group list-group-horizontal float-end text-center">
+            <a href="#cover" class="list-group-item list-group-item-action list-group-item-warning-emphasis">Home</a>
+            <a href="#history" class="list-group-item list-group-item-action list-group-item-warning-emphasis">History</a>
+            <a href="#product" class="list-group-item list-group-item-action list-group-item-warning-emphasis">Products</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-warning-emphasis">Varities</a>
+        </ol>
+    </nav>
+    <div class="main d-inline-block">
+        <div id="cover">
+            <div class="cover d-flex" id="cover-1">
+                <img src="img/cover1.jpg" alt="" class="float-start">
+                <p>Thanakha, also spelled Thanakha (Burmese: သနပ်ခါး; MLCTS: sa.nap hka:; pronounced [θənəkʰá]), is a paste made from ground bark. It is a distinctive feature of the culture of Myanmar, seen commonly applied to the face and sometimes the
+                    arms of women and girls, and is used to a lesser extent also by men and boys.</p>
+            </div>
+            <!-- <div class="hr-gp">
+                <hr>
+            </div> -->
+
+            <div class="clearfix"></div>
+            <div class="cover d-flex" id="cover-2">
+                <p> Thanakha is used by Burmese people since the mid-11th century. In a Bagan Pagoda, there is a Bagan era wall painting of a Bagan woman wearing thanakha.During King Bayinnaung ,Alungpaya and Bodawpaya's military campaign in Thailand, thanakha
+                    was first introduced to Thai people</p>
+                <img src="img/cover2.jpg" alt="" class="float-end">
+
+            </div>
+            <!-- <div class="hr-gp">
+                <hr>
+
+            </div> -->
+        </div>
+        <!-- cover အဆုံး -->
+        <!-- break အစ -->
+        <div class="break text-center my-5"><i class="fa-solid fa-clover"></i><i class="fa-regular fa-window-minimize"></i><i class="fa-solid fa-clover"></i><i class="fa-regular fa-window-minimize"></i><i class="fa-solid fa-clover"></i><i class="fa-regular fa-window-minimize"></i><i class="fa-solid fa-clover"></i>
+            <i class="fa-regular fa-window-minimize"></i>
+            <i class="fa-solid fa-clover"></i>
+            <i class="fa-regular fa-window-minimize"></i>
+            <i class="fa-solid fa-clover"></i><i class="fa-regular fa-window-minimize"></i>
+            <i class="fa-solid fa-clover"></i><i class="fa-regular fa-window-minimize"></i>
+        </div>
+        <!-- break အဆုံး -->
+        <!-- history အစ  -->
+        <div class="history" id="history">
+            <h3><i class="fa-brands fa-envira"></i>History Of Myanmar ThanaKha <i class="fa-solid fa-leaf"></i></h3>
+            <p>The earliest literary reference to thanakha is in a 14th-century poem written by King Razadarit's Mon-speaking consort.During King Bayinnaung ,Alungpaya and Bodawpaya's military campaign in Thailand, thanakha was first introduced to Thai people.
+                Mentions of thanaka also exist in the 15th-century literary works of Burmese monk-poet Shin Raṭṭhasāra (1486-1529).</p>
+            <div class="photos">
+                <img id="show_photo" src="img/show1.jpg" alt="" class="border border-3 border-light rounded">
+            </div>
+        </div>
+        <!-- history အဆုံး  -->
+        <!-- break အစ -->
+        <div class="break text-center my-5"><i class="fa-solid fa-clover"></i><i class="fa-regular fa-window-minimize"></i><i class="fa-solid fa-clover"></i><i class="fa-regular fa-window-minimize"></i><i class="fa-solid fa-clover"></i><i class="fa-regular fa-window-minimize"></i><i class="fa-solid fa-clover"></i>
+            <i class="fa-regular fa-window-minimize"></i>
+            <i class="fa-solid fa-clover"></i>
+            <i class="fa-regular fa-window-minimize"></i>
+            <i class="fa-solid fa-clover"></i><i class="fa-regular fa-window-minimize"></i>
+            <i class="fa-solid fa-clover"></i><i class="fa-regular fa-window-minimize"></i>
+        </div>
+        <!-- break အဆုံး -->
+        <!-- product အစ -->
+        <div class="product my-3" id="product">
+            <h3><i class="fa-brands fa-envira"></i>Products Of Myanmar ThanaKha <i class="fa-solid fa-leaf"></i></h3>
+            <p></p>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="img/product1.jpg" alt="">
+                    <h3> ***** $</h3>
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></p>
+                    <div class="btn_view">
+                        <div class="btn-gp">
+                            <i class="fa-solid fa-circle-minus" onclick="minus(this);"></i>
+                            <input type="text">
+                            <i class="fa-solid fa-circle-plus" onclick="plus(this);"></i></div>
+                        <button> See More...</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/product5.jpg" alt="">
+                    <h3> ***** $</h3>
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></p>
+                    <div class="btn_view">
+                        <div class="btn-gp">
+                            <i class="fa-solid fa-circle-minus" onclick="minus(this);"></i>
+                            <input type="text">
+                            <i class="fa-solid fa-circle-plus" onclick="plus(this);"></i></div>
+                        <button> See More...</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/product3.jpg" alt="">
+                    <h3> ***** $</h3>
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></p>
+                    <div class="btn_view">
+                        <div class="btn-gp">
+                            <i class="fa-solid fa-circle-minus" onclick="minus(this);"></i>
+                            <input type="text">
+                            <i class="fa-solid fa-circle-plus" onclick="plus(this);"></i></div>
+                        <button> See More...</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/product4.jpg" alt="">
+                    <h3> ***** $</h3>
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></p>
+                    <div class="btn_view">
+                        <div class="btn-gp">
+                            <i class="fa-solid fa-circle-minus" onclick="minus(this);"></i>
+                            <input type="text">
+                            <i class="fa-solid fa-circle-plus" onclick="plus(this);"></i></div>
+                        <button> See More...</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/product2.jpg" alt="">
+                    <h3> ***** $</h3>
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></p>
+                    <div class="btn_view">
+                        <div class="btn-gp">
+                            <i class="fa-solid fa-circle-minus" onclick="minus(this);"></i>
+                            <input type="text">
+                            <i class="fa-solid fa-circle-plus" onclick="plus(this);"></i></div>
+                        <button> See More...</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/product6.jpg" alt="">
+                    <h3> ***** $</h3>
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></p>
+                    <div class="btn_view">
+                        <div class="btn-gp">
+                            <i class="fa-solid fa-circle-minus" onclick="minus(this);"></i>
+                            <input type="text">
+                            <i class="fa-solid fa-circle-plus" onclick="plus(this);"></i></div>
+                        <button> See More...</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/product7.jpg" alt="">
+                    <h3> ***** $</h3>
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></p>
+                    <div class="btn_view">
+                        <div class="btn-gp">
+                            <i class="fa-solid fa-circle-minus" onclick="minus(this);"></i>
+                            <input type="text">
+                            <i class="fa-solid fa-circle-plus" onclick="plus(this);"></i></div>
+                        <button> See More...</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/product9.jpg" alt="">
+                    <h3> ***** $</h3>
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></p>
+                    <div class="btn_view">
+                        <div class="btn-gp">
+                            <i class="fa-solid fa-circle-minus" onclick="minus(this);"></i>
+                            <input type="text">
+                            <i class="fa-solid fa-circle-plus" onclick="plus(this);"></i></div>
+                        <button> See More...</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/product14.jpg" alt="">
+                    <h3> ***** $</h3>
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></p>
+                    <div class="btn_view">
+                        <div class="btn-gp">
+                            <i class="fa-solid fa-circle-minus" onclick="minus(this);"></i>
+                            <input type="text">
+                            <i class="fa-solid fa-circle-plus" onclick="plus(this);"></i></div>
+                        <button> See More...</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/product11.jpg" alt="">
+                    <h3> ***** $</h3>
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></p>
+                    <div class="btn_view">
+                        <div class="btn-gp">
+                            <i class="fa-solid fa-circle-minus" onclick="minus(this);"></i>
+                            <input type="text">
+                            <i class="fa-solid fa-circle-plus" onclick="plus(this);"></i></div>
+                        <button> See More...</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/product12.jpg" alt="">
+                    <h3> ***** $</h3>
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></p>
+                    <div class="btn_view">
+                        <div class="btn-gp">
+                            <i class="fa-solid fa-circle-minus" onclick="minus(this);"></i>
+                            <input type="text">
+                            <i class="fa-solid fa-circle-plus" onclick="plus(this);"></i></div>
+                        <button> See More...</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/product13.jpg" alt="">
+                    <h3> ***** $</h3>
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></p>
+                    <div class="btn_view">
+                        <div class="btn-gp">
+                            <i class="fa-solid fa-circle-minus" onclick="minus(this);"></i>
+                            <input type="text">
+                            <i class="fa-solid fa-circle-plus" onclick="plus(this);"></i></div>
+                        <button> See More...</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product အဆုံး -->
+        <!-- break အစ -->
+        <div class="break text-center my-5"><i class="fa-solid fa-clover"></i><i class="fa-regular fa-window-minimize"></i><i class="fa-solid fa-clover"></i><i class="fa-regular fa-window-minimize"></i><i class="fa-solid fa-clover"></i><i class="fa-regular fa-window-minimize"></i><i class="fa-solid fa-clover"></i>
+            <i class="fa-regular fa-window-minimize"></i>
+            <i class="fa-solid fa-clover"></i>
+            <i class="fa-regular fa-window-minimize"></i>
+            <i class="fa-solid fa-clover"></i><i class="fa-regular fa-window-minimize"></i>
+            <i class="fa-solid fa-clover"></i><i class="fa-regular fa-window-minimize"></i>
+        </div>
+        <!-- break အဆုံး -->
+
+
+    </div>
+    <!-- main အဆုံး -->
+    <footer class="container">
+        <div class="footerlink"><i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-facebook-messenger"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-telegram"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+        <h5>copyright by www.studyrightnowmdy.com</h5>
+    </footer>
+
+</body>
+
+</html>

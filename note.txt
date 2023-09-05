@@ -1,0 +1,42 @@
+လိုအပ်တဲ့ link များ
+ <link rel="stylesheet" href="../bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+     <link rel="stylesheet" href="../bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="styleForEmail.css">
+Display Utilities
+.Format 
+    .d- {values} For xs
+    .d- {breakpoint} For sm|md|lg|xl|xxl -{values} 
+.Values 
+    .none 
+    .inline 
+    .block 
+    .grid 
+    .table 
+    .table-cell 
+    .table-row 
+    .inline-block 
+    .flex 
+    .inline-flex 
+
+.Flex 
+.Float 
+
+.d-flex  ဘေးတိုက် စာရှိသလောက်ယူ 
+    .flex-row 
+    .flex-column 
+    .flex-{breakpoints}-row 
+    .flex-{breakpoint}-column 
+    .flex-fill က လွတ်တဲ့နေရာအပြည့်ယူ
+
+    .clearfix ===> သူက သူ့အထက် divမှာ float တို့ ဘာတို့ ထားထားတဲ့ဟာတွေမပါချင်တော့ရင် 
+    သီးသန့်ဖြစ်ချင်တဲ့အခါသုံး 
+
+    အိမ်စာက form တစ်ခု ဆောက်ရန် 
+    is-valid ထည့်ပြရန်
+    responsive ဖြစ်ရန် 
+    အဆင့်တိုင်းမှာ validation စစ်ရန် 
+    ဥပမာ password မှာ strong, week , ထည့်ပြရန် 
